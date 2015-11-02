@@ -1,0 +1,3 @@
+[submodule "ESTAngularBestPractices"]
+	path = ESTAngularBestPractices
+	url = https://github.com/kornicameister/EST-AngularBestPractices.git
