@@ -1,3 +1,6 @@
 [submodule "ESTAngularBestPractices"]
 	path = ESTAngularBestPractices
 	url = https://github.com/kornicameister/EST-AngularBestPractices.git
+[submodule "TodoApp"]
+	path = TodoApp
+	url = https://github.com/kornicameister/TodoApp.git
