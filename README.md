@@ -1,0 +1,2 @@
+# Trainings
+Combines trainings repositories
