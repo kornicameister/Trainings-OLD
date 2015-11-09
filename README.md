@@ -1,5 +1,21 @@
-# Trainings
-Combines trainings repositories
+# Prerequisites
+
+Before dev-env can be provisioned following items must be installed:
+* **vagrant** >= 1.7.2
+* **virtualbox** >= 4.3.10
+
+You also try with newest releases of the following products. Just
+google them and you should find what you need. Although most of the tests
+with that were ran using specified versions.
+
+## Windows note
+Windows users, in case of provisioning errors, may try to use 32-bit box
+instead of 64bit box. To change that open **Vagrantfile** in the root of
+the folder and replace
+
+    master.vm.box = "hashicorp/precise64"
+    with
+    master.vm.box = "hashicorp/precise32"
 
 # Provisioning vagrant
 
@@ -8,7 +24,7 @@ Combines trainings repositories
 vagrant up
 vagrant ssh master
 ```
-2. After successfull ssh to the machine
+2. After successful ssh to the machine
 ```bash
 nvm install 5.0
 nvm use 5.0
