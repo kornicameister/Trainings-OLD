@@ -4,3 +4,4 @@
 [submodule "TodoApp"]
 	path = TodoApp
 	url = https://github.com/kornicameister/TodoApp.git
+	branch = v2
